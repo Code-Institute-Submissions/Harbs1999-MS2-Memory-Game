@@ -58,19 +58,33 @@ const cards = [
     },
 ]
 
-
+let selectedCards = []
+let selectedCardsId = []
 
 function setupBoard() {
     for (let i = 0; i < cards.length; i++) {
-        card = $(document.createElement('img'))
+        let card = $(document.createElement('img'))
         $(card).attr({
             src: "/static/images/marvel-card-back.jpg",
             alt: "card",
             data: i,
             class: "col-md-2 col-4 img-responsive"    
         })
+
+        $(card).click(function() {
+            let cardData = $(this).attr('data')
+            selectedCards.push(cards[cardData].name)
+            selectedCardsId.push(cardData)
+            $(this).attr('src', cards[cardData].img)
+
+            if (selectedCards.length === 2) {
+                setTimeout(checkIfMatch, 500)
+            }
+
+        
+        })
+
         $(".grid").append(card)
-    
     }
 }
 
