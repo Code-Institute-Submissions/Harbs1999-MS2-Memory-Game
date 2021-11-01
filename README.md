@@ -16,6 +16,9 @@
 For this site I kept the theme simple to create more focus on the game itself.
 *  Imagery:
 The theme of the game was Marvel so the card backs are Marvel and all of the card fronts are Marvel characters that the user must match.
+### Wireframe:
+![Memory Game on Desktop](/static/images/wireframes/memory-game-desktop.png)
+![Memory Game on Mobile](/static/images/wireframes/memory-game-mobile.png)
 ## Features
 ### Existing Features:
 *  Responsive Design.
