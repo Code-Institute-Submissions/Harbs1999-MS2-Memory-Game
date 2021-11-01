@@ -32,7 +32,7 @@ The theme of the game was Marvel so the card backs are Marvel and all of the car
 This project was developed in the gitpod IDE and pushed to a repository on GitHub
 The following is how I deployed my project.
 1. Log into GitHub
-2. From the list of repositories, click "Harbs1999/MS1-Samurai".
+2. From the list of repositories, click "Harbs1999/MS2-Memory-Game".
 3. Click on settings out of the tabs above.
 4. Navigate to "pages" tab on left.
 5. On the dropdown menu labelled "none", choose "master" branch.
