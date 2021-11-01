@@ -122,7 +122,7 @@ function checkIfMatch() {
 
 // Sets timer and counts down to 0, ends game if either timer 0 or all cards cleared
 function timer() {
-let seconds = 30;
+let seconds = 60;
 const intervalId = setInterval(() => {
   seconds -= 1;
   $("#timer").html(seconds)
