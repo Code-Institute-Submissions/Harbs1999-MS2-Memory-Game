@@ -1,13 +1,25 @@
-body {
-    
+/* Text Styling */
+
+h1, h3, span {
+  color: white;
+  display: inline;
 }
 
-/* .grid {
-    display: flex;
-    flex-wrap: wrap;
-    height: 300px;
-    width: 500px;
-} */
+h1 {
+  text-align: center;
+  display: block;
+}
+
+.timer-outer {
+  right: 20px;
+  position: absolute;
+}
+
+a {
+  margin-top: 50px;
+}
+
+/* Image Styling */
 
 img {
     margin: 20px 0 20px 0;
