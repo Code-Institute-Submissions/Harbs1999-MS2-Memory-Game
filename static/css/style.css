@@ -1,5 +1,9 @@
 /* Text Styling */
 
+body {
+  background-color: grey;
+}
+
 h1, h3, span {
   display: inline;
 }
@@ -9,12 +13,16 @@ h1 {
   display: block;
 }
 
+.score-outer {
+  margin-left: 20px;
+}
+
 .timer-outer {
   right: 20px;
   position: absolute;
 }
 
-a {
+#play-again {
   margin-top: 50px;
 }
 

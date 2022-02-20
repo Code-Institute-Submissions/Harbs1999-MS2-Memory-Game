@@ -127,7 +127,7 @@ const intervalId = setInterval(() => {
   $("#timer").html(seconds)
 if (seconds === 0) {
     $("img").hide("fast");
-    $("#play-again").html("<a href='index.html' class='btn btn-primary col-12'>Play Again</a>")
+    $("#play-again").html("<a href='index.html' class='btn btn-danger col-12'>Play Again</a>")
     clearInterval(intervalId);
   }
 if (correctCards.length === 7) {

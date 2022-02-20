@@ -9,8 +9,7 @@
 4. I would like the game to function properly.
 5. I would like clear indications as to what is happening.
 *  Creator:
-1. As the creator of this site I would like to play my own game.
-2. The same as the user's stories.
+1. As the creator of this site I would like to play and enjoy my own game.
 ### Design:
 * Color:
 For this site I kept the theme simple to create more focus on the game itself.
@@ -24,6 +23,7 @@ The theme of the game was Marvel so the card backs are Marvel and all of the car
 *  Responsive Design.
 *  Interactive Elements.
 *  Replayability.
+*  Scoring
 ### Features Left to Implement:
 *  Difficulty Adjustment.
 *  Different Themes.
