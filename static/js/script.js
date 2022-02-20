@@ -1,14 +1,13 @@
 $(document).ready(function() {
-$("body").css("background-color", "black")
 // All Cards that will show on board
 const cards = [
     {
-        name: "green goblin",
-        img: "static/images/green-goblin.jpg"
+        name: "deadpool",
+        img: "static/images/deadpool.png"
     },
     {
-        name: "green goblin",
-        img: "static/images/green-goblin.jpg"
+        name: "deadpool",
+        img: "static/images/deadpool.png"
     },
     {
         name: "hulk",
@@ -20,11 +19,11 @@ const cards = [
     },
     {
         name: "iron man",
-        img: "static/images/iron-man.jpg"
+        img: "static/images/iron-man.png"
     },
     {
         name: "iron man",
-        img: "static/images/iron-man.jpg"
+        img: "static/images/iron-man.png"
     },
     {
         name: "scarlet witch",
@@ -36,11 +35,11 @@ const cards = [
     },
     {
         name: "spiderman",
-        img: "static/images/spiderman.jpg"
+        img: "static/images/spiderman.png"
     },
     {
         name: "spiderman",
-        img: "static/images/spiderman.jpg"
+        img: "static/images/spiderman.png"
     },
     {
         name: "thor",
@@ -52,11 +51,11 @@ const cards = [
     },
     {
         name: "wolverine",
-        img: "static/images/wolverine.jpg"
+        img: "static/images/wolverine.png"
     },
     {
         name: "wolverine",
-        img: "static/images/wolverine.jpg"
+        img: "static/images/wolverine.png"
     },
 ]
 

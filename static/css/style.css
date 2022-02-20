@@ -1,7 +1,6 @@
 /* Text Styling */
 
 h1, h3, span {
-  color: white;
   display: inline;
 }
 
@@ -23,8 +22,9 @@ a {
 
 img {
     margin: 20px 0 20px 0;
-    height: 200px;
+    height: 300px;
     width: 200px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
